@@ -10,6 +10,6 @@ RUN yarn run build --production
 
 RUN yarn global add serve
 
-CMD serve -p 80
+CMD serve -s src -p 80
 
 EXPOSE 80
