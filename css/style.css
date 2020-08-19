@@ -3,7 +3,7 @@
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -26,12 +26,12 @@ body {
 }
 
 a {
-    color: #22a338;
+    color: #003049;
 }
 
 a:hover,
 a:focus {
-    color: #22a338;
+    color: #003049;
 }
 
 h1 {
@@ -73,7 +73,7 @@ p {
 }
 
 p.lead {
-    color: #00a651;
+    color: #003049;
     margin-bottom: 2rem;
 }
 
@@ -94,15 +94,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #00a651;
+    color: #003049;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: -webkit-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: -ms-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
+    background-image: -moz-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: -webkit-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: -ms-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: linear-gradient( 122deg, #003049 0%, #003049 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -115,7 +115,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
+    background-image: linear-gradient( 122deg, #003049 0%, #003049 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -152,7 +152,7 @@ p.lead {
 }
 
 .section-title small {
-    color: #00a651;
+    color: #003049;
 }
 
 @media (max-width:767px) {
@@ -176,9 +176,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(0, 166, 81);
-    background: -moz-linear-gradient(135deg, rgb(0, 166, 81) 0%, rgb(115, 215, 45) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(0, 166, 81) 0%, rgb(115, 215, 45) 100%);
-    background: linear-gradient(135deg, rgb(0, 166, 81) 0%, rgb(115, 215, 45) 100%);
+    background: -moz-linear-gradient(135deg, rgb(0, 48, 73) 0%, rgb(0, 48, 73) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(0, 48, 73) 0%, rgb(0, 48, 73) 100%);
+    background: linear-gradient(135deg, rgb(0, 48, 73) 0%, rgb(0, 48, 73) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -229,10 +229,10 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(0, 166, 81, 0.8) 0%, rgba(115, 215, 45, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(0, 166, 81, 0.8) 0%, rgba(115, 215, 45, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(0, 166, 81, 0.8) 0%, rgba(115, 215, 45, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(0, 166, 81, 0.8) 0%, rgba(115, 215, 45, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(0, 48, 73, 0.8) 0%, rgba(0, 48, 73, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(0, 48, 73, 0.8) 0%, rgba(0, 48, 73, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(0, 48, 73, 0.8) 0%, rgba(0, 48, 73, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(0, 48, 73, 0.8) 0%, rgba(0, 48, 73, 0.8) 100%);
 }
 
 .tagline {
@@ -269,10 +269,10 @@ header {
 ----------------------*/
 
 .gradient-fill:before {
-    color: #00a651cc;
-    background: -moz-linear-gradient(top, #00a651cc 0%, #73d72dcc 100%);
-    background: -webkit-linear-gradient(top, #00a651cc 0%, #73d72dcc 100%);
-    background: linear-gradient(to bottom, #00a651cc 0%, #73d72dcc 100%);
+    color: #003049;
+    background: -moz-linear-gradient(top, #003049 0%, #003049 100%);
+    background: -webkit-linear-gradient(top, #003049 0%, #003049 100%);
+    background: linear-gradient(to bottom, #003049 0%, #003049 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -298,10 +298,10 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #00a651cc;
-    background: -moz-linear-gradient(top, #00a651cc 0%, #73d72dcc 100%);
-    background: -webkit-linear-gradient(top, #00a651cc 0%, #73d72dcc 100%);
-    background: linear-gradient(to bottom, #00a651cc 0%, #73d72dcc 100%);
+    color: #003049;
+    background: -moz-linear-gradient(top, #003049 0%, #003049 100%);
+    background: -webkit-linear-gradient(top, #003049 0%, #003049 100%);
+    background: linear-gradient(to bottom, #003049 0%, #003049 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -335,7 +335,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #00a651;
+    color: #003049;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -354,10 +354,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: -webkit-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: -ms-linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
-    background-image: linear-gradient( 122deg, #00a651 0%, #8dc640 100%);
+    background-image: -moz-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: -webkit-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: -ms-linear-gradient( 122deg, #003049 0%, #003049 100%);
+    background-image: linear-gradient( 122deg, #003049 0%, #003049 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -616,13 +616,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #00a651;
+    color: #003049;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #006d31;
+    color: #003049;
 }
 
 @media (max-width:991px) {
