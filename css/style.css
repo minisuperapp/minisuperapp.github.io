@@ -192,6 +192,12 @@ p.lead {
     position: relative;
 }
 
+.navbar-nav .language-selection {
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
