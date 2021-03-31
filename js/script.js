@@ -98,7 +98,9 @@ $(function() {
         });
     }
 
-    // LANGUAGE
+    /*-----------------------------------
+     * LANUGAGE
+     *-----------------------------------*/
     let dictionary, set_lang;
 
     // Object literal behaving as multi-dictionary
@@ -106,10 +108,20 @@ $(function() {
         "spanish": {
             "window_title": "Minisuper | ¡Ordena y recibe en casa!",
             "title": "¡Ordena y recibe en casa!",
+            "home": "INICIO",
+            "contact": "CONTACTO",
+            "sell": "VENDER",
+            "buy": "COMPRAR",
+            "tagline": "Alimentos de calidad, en la puerta de tu hogar.",
         },
         "english": {
             "window_title": "Minisuper | Order and receive at home!",
             "title": "Order and receive at home!",
+            "home": "HOME",
+            "contact": "CONTACT",
+            "sell": "SELL",
+            "buy": "BUY",
+            "tagline": "Quality food at your front door.",
         },
     };
 
@@ -132,5 +144,5 @@ $(function() {
     });
 
     // Set initial language to English
-    set_lang(dictionary.spanish);
+    set_lang(dictionary.english);
 }); /* End Fn */
