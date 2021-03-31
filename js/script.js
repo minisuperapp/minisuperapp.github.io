@@ -113,6 +113,8 @@ $(function() {
             "sell": "VENDER",
             "buy": "COMPRAR",
             "tagline": "Alimentos de calidad, en la puerta de tu hogar.",
+            "features": "CARACTERÍSTICAS",
+            "stand_out": "¿Por qué nos destacamos?",
         },
         "english": {
             "window_title": "Minisuper | Order and receive at home!",
@@ -122,6 +124,8 @@ $(function() {
             "sell": "SELL",
             "buy": "BUY",
             "tagline": "Quality food at your front door.",
+            "features": "FEATURES",
+            "stand_out": "Why do we stand out?",
         },
     };
 
