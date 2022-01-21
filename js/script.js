@@ -148,5 +148,5 @@ $(function() {
     });
 
     // Set initial language to English
-    set_lang(dictionary.english);
+    set_lang(dictionary.spanish);
 }); /* End Fn */
